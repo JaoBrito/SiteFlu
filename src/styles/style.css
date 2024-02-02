@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+nav #primeira_camada{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #6E182C;
+  color: #FFFFFF;
+  gap: 500px;
+  width: 100%;
+  height: 30px;
+}
+
+nav #primeira_camada ul{
+  list-style: none;
+  display: flex;
+  gap: 5px;
+}
+
+nav #segunda_camada{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 80px;
+}
+
+
+nav #segunda_camada #escrita_flu{
+  width: 250px;
+  height: 80px;
+}
+
+nav #segunda_camada #logo_flu{
+  width: 100px;
+  height: 100px;
+}
+
+nav #segunda_camada #logo_umbro{
+  width: 100px;
+  height: 50px;
+
+}
+
+nav #segunda_camada #logo_betano{
+  width: 100px;
+  height: 50px;
+
+}
+
+nav #terceira_camada {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  background-color: #01633D;
+}
+
+nav #terceira_camada ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  color: #FFFFFF;
+  gap: 25px;
+  font-size: 13px;
+  text-transform: uppercase;
+  
+}
+
+nav #terceira_camada ul li{
+  padding: 10px 15px;
+}
+
+nav img{
+  width: 20px;
+  height: 20px;
+}
+
+#container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20%;
+  gap: 20px;
+}
+main{
+  max-width: 900px;
+  flex: 1;
+}
+
+main #banner{
+  width: 100%;
+}
+main h1{
+  display: flex;
+  justify-content: center;
+  color: #414141;
+}
+
+main h2{
+  color: #555555;
+}
+
+main p{
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+main #oscar_cox{
+  margin-top: 15px;
+  width: 300px;
+  height: 300px;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 400px;
+  max-height: 550px;
+  padding: 0 15px;
+}
+
+aside h1{
+  font-weight: 300;
+}
+
+aside ul{
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+aside li {
+  padding: 10px 15px;
+  margin: 0px 2px 0px 0px;
+  color: #005f3b;
+}
+
+aside #profissional{
+  padding: 10px 15px;
+  margin: 0px 2px 0px 0px;
+  color: #6e182c;
+}
+
+aside h2{
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #414141;
+  margin-top: 10px
+}
+
+#confrontos_profissional{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#confrontos_profissional #emblemas{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+#confrontos_profissional #emblemas #versus{
+  font-size: 40px;
+  color: #585858;
+  font-weight: 300;
+}
+
+#confrontos_profissional #emblemas #logo_flu_confronto{
+  width: 90px;
+  height: 90px;
+}
+
+#confrontos_profissional #emblemas #logo_bangu_confronto{
+  width: 90px;
+  height: 90px;
+}
+
+#confrontos_profissional button{
+  max-width: 100px;
+  max-height: 30px;
+  background-color: #D6D6D6;
+  border: .5px #948989;
+  border-radius: 3px;
+  padding: 2px 10px;
+  margin: 5px 0px 0px;
+  color: white;
+  font-size: 10px;
+}
+
+#socio{
+  width: 100%;
+}
+
+
